@@ -1,6 +1,6 @@
 # My website
 
-Click here to visit my portfolio: [https://arihantgaur.github.io](https://arihantgaur.github.io)
+[Click Here](https://flagarihant2000.github.io/arihantgaur.github.io/) to visit my portfolio.
 
 ### Acknowledgements
 
