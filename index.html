@@ -269,8 +269,8 @@
                 <i class="fas fa-eye fa-2x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/chua.svg" alt="">
-            <h4 class="text-center text-secondary mb-0"> Chaos Theory Demonstration in Chua's Circuit </h4>
+            <img class="img-fluid" src="img/portfolio/stereo.gif" alt="">
+            <h4 class="text-center text-secondary mb-0"> Stereo 3D Reconstruction </h4>
           </div>
         </div>
                
@@ -891,10 +891,11 @@
                 <h4 class=" text-secondary text-uppercase mb-3">Abstract</h4>
                 <!-- Portfolio Modal - Text -->
 
-                <p class="mb-5 text-justify">Chaos Theory is a branch in mathematics, which deals with dynamic systems, involving a highly sensitive reaction of the output given a slight change of the input. Here, this is demonstrated using a famous circuit known as Chua's Circuit. It is a nonperiodic oscillator, that is, it produces an output waveform that never repeats. It is also known as the "paradigm of chaos". This was done as a project for Electronic Devices and Circuits course at VNIT Nagpur during my third semester. The implementation was done by replacing the Chua's Diode using transistors. The simulation is done on NI Multisim version 14.</p></p>
+                <p class="mb-5 text-justify">The objective is to reconstruct a 3D equivalent, given the pair of images. Features are extracted for the two images using Scale Invariant Feature transform (SIFT), followed by feature matching using Brute Force KNN and outlier rejection. The essential matrix is calculated for the point correspondence and outliers are rejected again using RANSAC. Using SVD, pose is recovered. From the recovered pose, stereo rectification is performed such that the epipoles for both the frames tend to infinity. Using Semi Global Block Matching (SGBM), the disparity map is calculated, for left image with respect to right image and vice versa. Using these two maps, Weighted Least Square (WLS) Filtering is performed to reduce speckles and for uniform and smooth continuity of map. A reprojection matrix Q is defined to project these point onto 3D, in order to make the final point cloud. Currently, this concept is being extended to Structure from Motion (SFM).
+</p></p>
 
                 <h4 class=" text-secondary text-uppercase mb-0">Output</h4>
-                <img class="img-fluid rounded mb-5 mt-4" src="img/portfolio/Chaos.png" alt="">
+                <img class="img-fluid rounded mb-5 mt-4" src="img/portfolio/disparity.png" alt="">
 
                 <div class="row text-center d-flex justify-content-center">
                   
