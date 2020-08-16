@@ -54,7 +54,7 @@
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#courses">Courses</a>
           </li>
           <li class="nav-item mx-0 mx-lg-0">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://drive.google.com/file/d/10vLzUeNlClkqRo1Vh-qCR3oTMSyitMXb/view?usp=sharing" target="_blank">Résumé</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://drive.google.com/file/d/1T8-ug_USq5mLcvdpyDGruMTyKgklozzP/view" target="_blank">Résumé</a>
           </li>
 
         </ul>
@@ -896,14 +896,21 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-4" src="img/portfolio/number.webp" alt="">
-                <h4 class=" text-secondary text-uppercase mb-3">Solution Overview</h4>
+                <img class="img-fluid rounded mb-4" src="img/portfolio/platedetect.gif" alt="">
+                <h4 class=" text-secondary text-uppercase mb-3">Abstract</h4>
                 <!-- Portfolio Modal - Text -->
 
-                <p class="mb-5 text-justify">Our current solution (implemented) provides a robust registration plate detection, and extracts other features like car model, speed, face (if visible), date and time of entry/exit and upload the extracted data to a centralized IoT integrated database. Beneficiaries include malls, colleges, parking lots, etc. with multiple gates. Whenever the gate camera detects a departing car, the corresponding owner gets notified. Further, the owner can use the Alert feature to warn the guard. The web application has two levels of access, the first providing general information about a specific car to the corresponding owner, and the latter one for the Authority, which stores all the data of a campus. This can be used to monitor the traffic on the campus and for surveillance applications.
+                <p class="mb-5 text-justify">The project focusses on the detection and registration of vehicles and their number plates. The camera feed is first processed to detect the vehicle type present using YOLOv4 architecture, trained on COCO dataset and finetuned on some of our dataset. Then the number plate present is detected and segmented using a different YOLOv4 architecture, trained on a mix of OID dataset as well as some of our own. Finally, from the segmented number plate, individual characters are segmented using multiclass classification with YOLOv4, trained entirely on our dataset. The solution was then integrated with web and android application. This project was done as a problem statement provided by MixOrg Consulting Services Pvt. Ltd. under MHRD and MIC organized Smart India Hackathon, 2020 (Software Edition), where our solution secured first position and a cash prize of Rs. 1,00,000.
 
                 <h4 class=" text-secondary text-uppercase mb-0"></h4>
                 <img class="img-fluid rounded mb-5 mt-4" src="img/portfolio/cyber_number.jpg" alt="">
+                
+                  <div class="text-center mt-2 ml-2 mr-2">
+                  <a class="btn btn-l btn-outline-primary" href="https://www.youtube.com/watch?v=Y-EuzsubixI&feature=youtu.be" target="_blank">
+                    <i class="fas fa-video mr-2"></i>
+                    Video
+                  </a>
+                  </div>
 
                   <button class="btn btn-primary mt-2 ml-2 mr-2" href="#" data-dismiss="modal">
                     <i class="fas fa-times fa-fw"></i>
