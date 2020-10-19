@@ -83,7 +83,7 @@
       </div>
 
       <!-- Masthead Subheading -->
-      <p class="masthead-subheading font-weight-light mb-0">Computer Vision | Multiview Geometry</p>
+      <p class="masthead-subheading font-weight-light mb-0">Computer Vision | Multiview Geometry | Deep Learning</p>
 
       <div class="col-lg-4 mb-5 mb-lg-0 ">
       	<br>
@@ -270,7 +270,7 @@
               </div>
             </div>
             <img class="img-fluid" src="img/portfolio/stereo.gif" alt="">
-            <h4 class="text-center text-secondary mb-0"> Stereo 3D Reconstruction </h4>
+            <h4 class="text-center text-secondary mb-0"> Image Pair Dense Stereo 3D Reconstruction</h4>
           </div>
         </div>
                
@@ -310,6 +310,30 @@
             </div>
             <img class="img-fluid" src="img/portfolio/ccufg.gif" alt="">
             <h4 class="text-center text-secondary mb-0"> Cursor Control Using Face Gestures </h4>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#sfm">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-eye fa-2x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/sfm.gif" alt="">
+            <h4 class="text-center text-secondary mb-0"> Structure from Motion (SfM) </h4>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#od">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-eye fa-2x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/od.gif" alt="">
+            <h4 class="text-center text-secondary mb-0"> Study of Deep Learning based Object Detection Methods </h4>
           </div>
         </div>
 
@@ -804,7 +828,7 @@
 <!-- ######################################## Copyright Section ##########################################-->
   <section class="copyright py-4 text-center text-white">
     <div class="container">
-      <small>Copyright &copy; Arihant Gaur 2020</small>
+      <small>Copyright &copy; Arihant Gaur 2020; Last Updated: 19/10/2020 1459IST</small>
     </div>
   </section>
 
@@ -1164,6 +1188,104 @@
       </div>
     </div>
   </div>
+  
+  <!-- Portfolio Modal 7 -->
+  <div class="portfolio-modal modal fade" id="sfm" tabindex="-1" role="dialog" aria-labelledby="sfmLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-center"> Structure from Motion (SfM) </h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-user"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <div class="text-center"><img class="img-fluid rounded mb-4 text-center" src="img/portfolio/sfm.gif" alt=""></div>
+                
+
+                <h4 class=" text-secondary text-uppercase mb-3 mt-2 text-center ">Abstract</h4>
+                <p class="mb-5 text-justify"> This is a current long term project of mine, where I am working on determining the image poses as well as a sparse 3D reconstruction of world scene. Currently, this project is done on a small scale (number of images on the order of 10 - 50), where an ordered set of images are provided (with known camera intrinsic parameters). Later on, it will be extended for thousands of unordered images, using graph - based methods. </p>
+
+
+                <div class="row text-center d-flex justify-content-center">
+                  
+                  <div class="text-center mt-2 ml-2 mr-2">
+                  <a class="btn btn-l btn-outline-primary" href="https://github.com/FlagArihant2000/sfm-mvs" target="_blank">
+                    <i class="fas fa-code mr-2"></i>
+                    GitHub
+                  </a>
+                  </div>
+
+                  <button class="btn btn-primary mt-2 ml-2 mr-2" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>
+                    Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+  
+  <!-- Portfolio Modal 8 -->
+  <div class="portfolio-modal modal fade" id="od" tabindex="-1" role="dialog" aria-labelledby="odLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-center"> Deep Learning Based Object Detection </h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-user"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <div class="text-center"><img class="img-fluid rounded mb-4 text-center" src="img/portfolio/sfm.gif" alt=""></div>
+                
+
+                <h4 class=" text-secondary text-uppercase mb-3 mt-2 text-center ">Abstract</h4>
+                <p class="mb-5 text-justify"> This is another current project of mine, involving the study and implementation of various methods for object detection. </p>
+
+
+                  <button class="btn btn-primary mt-2 ml-2 mr-2" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>
+                    Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
 
 
   <!-- ########################################  -->
